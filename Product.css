@@ -1,0 +1,131 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+.header-part{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+.div-1{
+    margin-left: 40px;
+}
+.nav-links{
+    margin-right: 40px;
+}
+header nav ul{
+    display: flex;
+   
+}
+header nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+.img-1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+.img-2{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid red; */
+
+}
+/* .conatainer-1{
+    
+
+} */
+.rows-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    column-gap: 200px;
+    margin-top: 50px;
+ 
+
+}
+.cm-1:hover{
+    /* cursor: pointer; */
+    background-color: red;
+    padding: 5px;
+  
+    border: 1px solid red ;
+}
+.container-2{
+    color: white;
+
+}
+.rows-2{
+    margin-left: 60px;
+    display: flex;
+    justify-content: start;
+    column-gap: 80px;
+    color: white;
+    column-gap: 80px;
+
+}
+ul li{
+    list-style-type: none;
+    line-height: 40px;
+   
+}
+.list-2{
+    text-align: right;
+    margin-left: 80px;
+}
+.sec-5{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(5, 5, 5);
+    color: white;
+     /* border: 1px solid red;
+     margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    padding: 40px;
+ }
+ .subscribe{
+     background-color: red;
+     color: white;
+
+ }
+ input{
+     background-color: rgb(22, 21, 21);
+     color: beige;
+ }
+ h6{
+     text-align: center;
+     background-color: rgb(14, 13, 13);
+    
+ }
+ .sec-6{
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: aliceblue;
+ }
+ .footer1 ul{
+    display: flex;
+    color: white;
+    background-color:black;
+ }
+ .footer1 ul li{
+    list-style: none;
+    margin: 0px 10px;
+ }
+ .footer p>b{
+    font-size: small;
+ }
+ .para1{
+    font-size: smaller;
+    margin-left: 40px;
+ }
